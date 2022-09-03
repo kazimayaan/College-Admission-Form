@@ -1,0 +1,84 @@
+*{
+    margin:0px;
+    padding:0px;
+
+}
+
+.container{
+    margin:auto;
+    max-width: 80%;
+}
+
+form{
+    margin:auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+
+
+}
+
+fieldset{
+    margin:auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    width: 60vw;
+    margin: auto;
+}
+
+input,textarea{
+    margin : 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+h1,p{
+    text-align: center;
+}
+.bg{
+    width: 100%;
+    position:absolute;
+    z-index: -22;
+    opacity: 40%;
+    height: 100vh;
+}
+.bg1{
+    width: 100%;
+    position:absolute;
+    top: 600px;
+    z-index: -22;
+    opacity: 40%;
+    height: 100vh;
+}
+
+legend{
+    font-family: 'Merriweather', serif;
+    font-size: large;
+
+}
+fieldset{
+    border:4px solid rgb(21, 6, 81);
+    border-radius: 5px;
+}
+
+h1{
+    color:red;
+}
+p{
+      font-style: italic;
+}
+.btn{
+    color:azure;
+    background-color: rgb(104, 88, 254);
+    font-size: 20px;
+    width:30%;
+    margin: auto;
+    cursor: pointer;
+}

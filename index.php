@@ -22,7 +22,7 @@ include "function.php";
         <br>
         <h1>AMC ENGINEERING COLLEGE</h1><br>
          <p>Please enter your details below to apply:</p>
-         <form action="index.php" method="post">
+         <form action="function.php" method="post">
             <fieldset>
             <legend>Application Form:</legend>
             <label for="name">Name:</label> <input type="text" name="name" id="1" placeholder="Enter name Here">

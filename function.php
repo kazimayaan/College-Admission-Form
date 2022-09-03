@@ -26,8 +26,3 @@ if(isset($_POST['aa'])){
     header('Location: index.php');
 
 }
-
-
-
-
-?>

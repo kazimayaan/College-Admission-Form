@@ -8,8 +8,9 @@
 
     if(!$con){
         die("Connection to this database failed due to" . mysqli_connect_error());
-
     }
+if(isset($_POST['aa'])){
+
 
     $name = $_POST['name'];
     $mail = $_POST['mail'];
@@ -18,13 +19,14 @@
     $marks = $_POST['marks'];
     $text = $_POST['text'];
 
-    $sql = "INSERT INTO `admission`(`Name`, `Mail`, `Number`, `School`, `Marks`, `Text`, `DT`) VALUES (`$name`, `$mail`,`$number`, `$school`, `
-    $marks`,`$text`, current_timestamp());";
 
-    $con->query($sql);
+    $sql = "INSERT INTO `admission_table` (`S.No`, `Name`, `Mail`, `Number`, `School`, `Marks`, `Text`, `DT`) VALUES (NULL, '$name',' $mail', '$number', '$school', '$marks', '$text', current_timestamp())";
+    mysqli_query($con,$sql);
 
-echo "hello";
-echo $sql;
+    header('Location: index.php');
+
+}
+
 
 
 

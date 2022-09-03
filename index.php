@@ -22,7 +22,7 @@ include "function.php";
         <br>
         <h1>AMC ENGINEERING COLLEGE</h1><br>
          <p>Please enter your details below to apply:</p>
-         <form action="function.php" method="post">
+         <form action="index.php" method="post">
             <fieldset>
             <legend>Application Form:</legend>
             <label for="name">Name:</label> <input type="text" name="name" id="1" placeholder="Enter name Here">
@@ -33,8 +33,8 @@ include "function.php";
             <!-- <label for="gender">Gender:</label> <input type="radio" name="male" id=""33>male
             <input type="radio" name="male" id=""33>female -->
             <textarea name="text" id="" cols="30" rows="10" placeholder="Tell us about yourself"></textarea>
-                <input type="Submit" value="Submit" class="btn">
-                <!-- <input type="reset" value="Reset"> -->
+                <input type="Submit" value="Submit" name= "aa" class="btn">
+                <!-- <input type="reset" value="Reset" class= " btn"> -->
             </fieldset>
          </form>
     </div>
